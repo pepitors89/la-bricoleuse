@@ -1,0 +1,104 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+
+.container{
+    background-color:#FFFFFF ;
+    margin:auto;
+}
+
+.container img{
+}
+
+.logo{
+    background:#EFEFEF;
+    text-align: center;
+    
+}
+
+
+
+
+.logo ul  {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.logo ul a{
+    text-decoration:none;
+    color:#000000;
+    
+    
+}
+
+
+
+.logo img {
+    width:350px;
+}
+
+
+
+.avis {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.avis h2 {
+    width:60%;
+    margin:auto;
+    font-size: 20px;
+
+}
+
+.avis img {
+    padding-bottom: 20px;
+}
+
+ .fin{
+     background-color:#EFEFEF ;
+     display: flex; 
+     justify-content: space-between;
+     text-align: center;
+     border-top:1px solid #cdcdcd;
+     font-size: 15px;
+     left:1px solid grey;
+    padding: 30px 0 ;
+    margin: 0px;
+    
+    }
+
+.fin ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+/* Applique le style CSS sur toutes les DIV sauf la première et la dernière */
+.fin div:not(:nth-child(1)):not(:nth-child(4)) {
+    border-left:1px solid grey;
+}
+
+.fin li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+    height:20px;
+    text-align:left;
+
+    
+} 
+
+.imagbas  {
+                margin-top:20px;
+                margin-left: -80px;
+               margin-right:6em;
+               
+}
+
+
+
